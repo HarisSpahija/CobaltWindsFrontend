@@ -1,0 +1,22 @@
+{
+  "env": {
+    "browser": true,
+    "jest": true,
+    "commonjs": true,
+    "es6": true
+  },
+  "parser": "@babel/eslint-parser",
+  "plugins": ["import"],
+  "extends": ["plugin:prettier/recommended"],
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module",
+    "experimentalObjectRestSpread": true
+  },
+  "rules": {
+    "no-console": "warn",
+    "no-eval": "error",
+    "import/first": "error",
+    "prettier/prettier": "error"
+  }
+}
